@@ -24768,22 +24768,22 @@
 		{
 			"name": "Magic Missile",
 			"source": "PHB",
-			"page": 257,
-			"srd": true,
-			"basicRules": true,
+			"page": 136,
+			"srd": false,
+			"basicRules": false,
 			"level": 1,
 			"school": "V",
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": ""
 				}
 			],
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "feet",
-					"amount": 120
+					"type": "",
+					"amount": "60 yds.+ 10 yds./level"
 				}
 			},
 			"components": {
@@ -24796,16 +24796,8 @@
 				}
 			],
 			"entries": [
-				"You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals {@damage 1d4 + 1} force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st."
-					]
-				}
+				"Use of the magic missile spell creates up to five missiles of magical energy that dart forth from the wizards fingertip and unerringly strike their target. This includes enemy creatures in a melee. The target creature must be seen or otherwise detected to be hit, however, so near-total concealment, such as that offered by arrow slits, can render the spell ineffective. Likewise, the caster must be able to identify the target. He cannot direct a magic missile to \"Strike the commander of the legion,\" unless he can single out the commander from the rest of the soldiers. Specific parts of a creature cannot be singled out. Inanimate objects (locks, etc.) cannot be damaged by the spell, and any attempt to do so wastes the missiles to no effect. Against creatures, each missile inflicts 1d4+1 points of damage.",
+                "For every two extra levels of experience, the wizard gains an additional missile - he has two at 3rd level, three at 5th level, four at 7th level, etc., up to a total of five missiles at 9th level. If the wizard has multiple missile capability, he can have them strike a single target creature or several creatures, as desired"
 			],
 			"damageInflict": [
 				"force"
@@ -24820,61 +24812,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					},
-					{
 						"name": "Wizard",
 						"source": "PHB"
 					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Arcana",
-							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Artificer",
-							"source": "TCE"
-						},
-						"subclass": {
-							"name": "Armorer (UA)",
-							"source": "UA2020SubclassesPt3"
-						}
-					},
-					{
-						"class": {
-							"name": "Artificer",
-							"source": "TCE"
-						},
-						"subclass": {
-							"name": "Armorer",
-							"source": "TCE"
-						}
-					}
 				]
-			},
-			"races": [
-				{
-					"name": "Tiefling (Abyssal)",
-					"source": "UAThatOldBlackMagic",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Tiefling (Mephistopheles)",
-					"source": "UAFiendishOptions",
-					"baseName": "Tiefling",
-					"baseSource": "PHB"
-				}
-			]
+			}
 		},
 		{
 			"name": "Magic Mouth",
