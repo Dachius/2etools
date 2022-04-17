@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "Priest",
+			"name": "Cleric",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
@@ -59,6 +59,78 @@
 				}
 			},
 			"classTableGroups": [
+                {
+                    "title": "Saving Throws",
+					"colLabels": [
+						"Paralyzation, Poison, or Death Magic",
+						"Rod, Staff, or Wand",
+						"Petrification or Polymoorph*",
+                        "Breath Weapon**",
+                        "Spell***"
+					],
+					"rows": [
+						[
+							10, 14, 13, 16, 15
+						],
+						[
+							10, 14, 13, 16, 15
+						],
+						[
+							10, 14, 13, 16, 15
+						],
+						[
+							9, 13, 12, 15, 14
+						],
+						[
+							9, 13, 12, 15, 14
+						],
+						[
+							9, 13, 12, 15, 14
+						],
+						[
+							7, 11, 10, 13, 12
+						],
+						[
+							7, 11, 10, 13, 12
+						],
+						[
+							7, 11, 10, 13, 12
+						],
+						[
+							6, 10, 9, 12, 11
+						],
+						[
+							6, 10, 9, 12, 11
+						],
+						[
+							6, 10, 9, 12, 11
+						],
+						[
+							5, 9, 8, 11, 10
+						],
+						[
+							5, 9, 8, 11, 10
+						],
+						[
+							5, 9, 8, 11, 10
+						],
+						[
+							4, 8, 7, 10, 9
+						],
+						[
+							4, 8, 7, 10, 9
+						],
+						[
+							4, 8, 7, 10, 9
+						],
+						[
+							2, 6, 5, 8, 7
+						],
+						[
+							2, 6, 5, 8, 7
+						]
+					]
+				},
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
@@ -72,191 +144,71 @@
 					],
 					"rowsSpellProgression": [
 						[
-							1,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
+							1, 0, 0, 0, 0, 0, 0
 						],
 						[
-							2,
-							0,
-							0,
-							0,
-							0,
-							0,
-							0
+							2, 0, 0, 0, 0, 0, 0
 						],
 						[
-							2,
-							1,
-							0,
-							0,
-							0,
-							0,
-							0
+							2, 1, 0, 0, 0, 0, 0
 						],
 						[
-							3,
-							2,
-							0,
-							0,
-							0,
-							0,
-							0
+							3, 2, 0, 0, 0, 0, 0
 						],
 						[
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0
+							3, 3, 1, 0, 0, 0, 0
 						],
 						[
-							3,
-							3,
-							2,
-							0,
-							0,
-							0,
-							0
+							3, 3, 2, 0, 0, 0, 0
 						],
 						[
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
+							3, 3, 2, 1, 0, 0, 0
 						],
 						[
-							3,
-							3,
-							3,
-							2,
-							0,
-							0,
-							0
+							3, 3, 3, 2, 0, 0, 0
 						],
 						[
-							4,
-							4,
-							3,
-							2,
-							1,
-							0,
-							0
+							4, 4, 3, 2, 1, 0, 0
 						],
 						[
-							4,
-							4,
-							3,
-							3,
-							2,
-							0,
-							0
+							4, 4, 3, 3, 2, 0, 0
 						],
 						[
-							5,
-							4,
-							4,
-							3,
-							2,
-							1,
-							0
+							5, 4, 4, 3, 2, 1, 0
 						],
 						[
-							6,
-							5,
-							5,
-							3,
-							2,
-							2,
-							0
+							6, 5, 5, 3, 2, 2, 0
 						],
 						[
-							6,
-							6,
-							6,
-							4,
-							2,
-							2,
-							0
+							6, 6, 6, 4, 2, 2, 0
 						],
 						[
-							6,
-							6,
-							6,
-							5,
-							4,
-							2,
-							1
+                            6, 6, 6, 5, 4, 2, 1
 						],
 						[
-							6,
-							6,
-							6,
-							6,
-							4,
-							2,
-							1
+							6, 6, 6, 6, 4, 2, 1
 						],
 						[
-							7,
-							7,
-							7,
-							6,
-							4,
-							3,
-							1
+							7, 7, 7, 6, 4, 3, 1
 						],
 						[
-							7,
-							7,
-							7,
-							7,
-							5,
-							3,
-							2
+							7, 7, 7, 7, 5, 3, 2
 						],
 						[
-							8,
-							8,
-							8,
-							8,
-							6,
-							4,
-							2
+							8, 8, 8, 8, 6, 4, 2
 						],
 						[
-							9,
-							9,
-							8,
-							8,
-							6,
-							4,
-							2
+							9, 9, 8, 8, 6, 4, 2
 						],
 						[
-							9,
-							9,
-							9,
-							8,
-							7,
-							5,
-							2
+							9, 9, 9, 8, 7, 5, 2
 						]
 					]
 				}
 			],
 			"classFeatures": [
 				"Spellcasting|Cleric||1",
-				"Destroy Undead (CR 1/2)|Cleric||5",
+				"Turn Undead|Cleric||1",
 				"Placeholder|Cleric||20"
 			]
 		}
@@ -294,16 +246,70 @@
 			]
 		},
 		{
-			"name": "Destroy Undead (CR 1/2)",
+			"name": "Turn Undead",
 			"source": "PHB",
 			"page": 56,
 			"srd": true,
 			"basicRules": true,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"level": 5,
+			"level": 1,
 			"entries": [
-				"Starting at 5th level, when an {@filter undead of CR 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=undead|miscellaneous=!swarm} fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+				{
+					"type": "table",
+					"caption": "Turning Undead",
+					"colLabels": [
+						"Type or Hit Dice of Undead", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10-11", "12-13", "14+"
+					],
+                    "colStyles": [
+                        "col-2"
+					],
+					"rows": [
+						[
+						    "Skeleton or 1 HD", "10", "7", "4", "T", "T", "D", "D", "D*", "D*", "D*", "D*", "D*"
+						],
+						[
+							"Zombie", "13", "10", "7", "4", "T", "T", "D", "D", "D*", "D*", "D*", "D*"
+						],
+						[
+                            "Ghoul or 2 HD", "16", "13", "10", "7", "4", "T", "T", "D", "D", "D*", "D*", "D*"
+						],
+                        [
+							"Shadow or 3-4 HD", "19", "16", "13", "10", "7", "4", "T", "T", "D", "D", "D*", "D*"
+						],
+                        [
+							"Wight or 5 HD", "20", "19", "16", "13", "10", "7", "4", "T", "T", "D", "D", "D*"
+						],
+                        [
+							"Ghast", "-", "20", "19", "16", "13", "10", "7", "4", "T", "T", "D", "D"
+						],
+                        [
+							"Wraith or 6 HD", "-", "-", "20", "19", "16", "13", "10", "7", "4", "T", "T", "D"
+						],
+                        [
+							"Mummy or 7 HD", "-", "-", "-", "20", "19", "16", "13", "10", "7", "4", "T", "T"
+						],
+                        [
+							"Spectre or 8 HD", "-", "-", "-", "-", "20", "19", "16", "13", "10", "7", "4", "T"
+						],
+                        [
+							"Vampire or 9 HD", "-", "-", "-", "-", "-", "20", "19", "16", "13", "10", "7", "4"
+						],
+                        [
+							"Ghost or 10 HD", "-", "-", "-", "-", "-", "-", "20", "19", "16", "13", "10", "7"
+						],
+                        [
+							"Lich or 11+ HD", "-", "-", "-", "-", "-", "-", "-", "20", "19", "16", "13", "10"
+						],
+                        [
+							"Special**", "-", "-", "-", "-", "-", "-", "-", "-", "20", "19", "16", "13"
+						]
+					]
+				},
+                "*An additional 2d4 creatures of this type are turned.",
+                "**Special creatures include unique undead, free-willed undead of the Negative Material plane, certain Greater and Lesser Powers, and those undead that dwell in the outer planes.",
+                "&#8224 Paladins turn undead as priests who are two levels lower."
+
 			]
 		},
 		{

@@ -829,12 +829,11 @@ class ClassesPage extends MixinComponentGlobalState(BaseComponent) {
 			<tr><th class="border" colspan="15"></th></tr>
 			<tr><th class="cls-tbl__disp-name" colspan="15">${cls.name}</th></tr>
 			<tr>
-				<th colspan="3"/> <!-- spacer to match the 3 default cols (level, prof, features) -->
+				<th colspan="2"/> <!-- spacer to match the 2 default cols (level, features) -->
 				${$tblGroupHeaders}
 			</tr>
 			<tr>
 				<th class="cls-tbl__col-level">Level</th>
-				<th class="cls-tbl__col-prof-bonus">Proficiency Bonus</th>
 				<th>Features</th>
 				${$tblHeaders}
 			</tr>
@@ -977,7 +976,6 @@ class ClassesPage extends MixinComponentGlobalState(BaseComponent) {
 			return {
 				$row: $$`<tr class="cls-tbl__stripe-odd">
 					<td class="cls-tbl__col-level">${Parser.getOrdinalForm(ixLvl + 1)}</td>
-					<td class="cls-tbl__col-prof-bonus">+${pb}</td>
 					<td>${metasFeatureLinks.length ? metasFeatureLinks.map(it => it.$wrpLink) : `\u2014`}</td>
 					${$ptTableGroups}
 				</tr>`,
