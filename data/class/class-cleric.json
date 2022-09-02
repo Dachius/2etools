@@ -4,41 +4,17 @@
 			"name": "Cleric",
 			"source": "PHB",
 			"page": 56,
-			"srd": true,
-			"basicRules": true,
 			"hd": {
 				"number": 1,
 				"faces": 8
 			},
-			"proficiency": [
-				"wis",
-				"cha"
-			],
-			"spellcastingAbility": "wis",
-			"casterProgression": "full",
-			"preparedSpells": "<$level$> + <$wis_mod$>",
 			"startingProficiencies": {
 				"armor": [
-					"light",
-					"medium",
-					"{@item shield|phb|shields}"
+					"All",
+                    "Shields"
 				],
 				"weapons": [
-					"simple"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"history",
-								"insight",
-								"medicine",
-								"persuasion",
-								"religion"
-							],
-							"count": 2
-						}
-					}
+					"Bludgeoning"
 				]
 			},
 			"startingEquipment": {
@@ -210,7 +186,131 @@
 				"Spellcasting|Cleric||1",
 				"Turn Undead|Cleric||1",
 				"Placeholder|Cleric||20"
-			]
+			],
+            "experience": [
+                [
+                    "0"
+                ],
+                [
+                    "1500"
+                ],
+                [
+                    "3,000"
+                ],
+                [
+                    "6,000"
+                ],
+                [
+                    "13,000"
+                ],
+                [
+                    "27,500"
+                ],
+                [
+                    "55,000"
+                ],
+                [
+                    "110,000"
+                ],
+                [
+                    "225,000"
+                ],
+                [
+                    "450,000"
+                ],
+                [
+                    "675,000"
+                ],
+                [
+                    "900,000"
+                ],
+                [
+                    "1,125,000"
+                ],
+                [
+                    "1,350,000"
+                ],
+                [
+                    "1,575,000"
+                ],
+                [
+                    "1,800,000"
+                ],
+                [
+                    "2,025,000"
+                ],
+                [
+                    "2,250,000"
+                ],
+                [
+                    "2,475,000"
+                ],
+                [
+                    "2,700,000"
+                ]
+            ],
+            "thac0": [
+                [
+                    "20"
+                ],
+                [
+                    "20"
+                ],
+                [
+                    "20"
+                ],
+                [
+                    "18"
+                ],
+                [
+                    "18"
+                ],
+                [
+                    "18"
+                ],
+                [
+                    "16"
+                ],
+                [
+                    "16"
+                ],
+                [
+                    "16"
+                ],
+                [
+                    "14"
+                ],
+                [
+                    "14"
+                ],
+                [
+                    "14"
+                ],
+                [
+                    "12"
+                ],
+                [
+                    "12"
+                ],
+                [
+                    "12"
+                ],
+                [
+                    "10"
+                ],
+                [
+                    "10"
+                ],
+                [
+                    "10"
+                ],
+                [
+                    "8"
+                ],
+                [
+                    "8"
+                ]
+            ]
 		}
 	],
 	"subclass": [],
@@ -307,8 +407,7 @@
 					]
 				},
                 "*An additional 2d4 creatures of this type are turned.",
-                "**Special creatures include unique undead, free-willed undead of the Negative Material plane, certain Greater and Lesser Powers, and those undead that dwell in the outer planes.",
-                "&#8224 Paladins turn undead as priests who are two levels lower."
+                "**Special creatures include unique undead, free-willed undead of the Negative Material plane, certain Greater and Lesser Powers, and those undead that dwell in the outer planes."
 
 			]
 		},
@@ -316,8 +415,6 @@
 			"name": "Placeholder",
 			"source": "PHB",
 			"page": 56,
-			"srd": true,
-			"basicRules": true,
 			"className": "Cleric",
 			"classSource": "PHB",
 			"level": 20

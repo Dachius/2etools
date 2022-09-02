@@ -829,11 +829,12 @@ class ClassesPage extends MixinComponentGlobalState(BaseComponent) {
 			<tr><th class="border" colspan="15"></th></tr>
 			<tr><th class="cls-tbl__disp-name" colspan="15">${cls.name}</th></tr>
 			<tr>
-				<th colspan="2"/> <!-- spacer to match the 2 default cols (level, features) -->
+				<th colspan="3"/> <!-- spacer to match the 3 default cols (level, experience, features) -->
 				${$tblGroupHeaders}
 			</tr>
 			<tr>
 				<th class="cls-tbl__col-level">Level</th>
+                <th>Experience</th>
 				<th>Features</th>
 				${$tblHeaders}
 			</tr>
@@ -976,6 +977,7 @@ class ClassesPage extends MixinComponentGlobalState(BaseComponent) {
 			return {
 				$row: $$`<tr class="cls-tbl__stripe-odd">
 					<td class="cls-tbl__col-level">${Parser.getOrdinalForm(ixLvl + 1)}</td>
+                    <td>1</td>
 					<td>${metasFeatureLinks.length ? metasFeatureLinks.map(it => it.$wrpLink) : `\u2014`}</td>
 					${$ptTableGroups}
 				</tr>`,
@@ -1115,10 +1117,7 @@ class ClassesPage extends MixinComponentGlobalState(BaseComponent) {
 
 			$ptHp = `<tr class="cls-side__show-hide">
 				<td colspan="6" class="cls-side__section">
-					<h5 class="cls-side__section-head">Hit Points</h5>
 					<div><strong>Hit Dice:</strong> ${Renderer.getEntryDice(hdEntry, "Hit die")}</div>
-					<div><strong>Hit Points at 1st Level:</strong> ${Renderer.class.getHitPointsAtFirstLevel(cls.hd)}</div>
-					<div><strong>Hit Points at Higher Levels:</strong> ${Renderer.class.getHitPointsAtHigherLevels(cls.name, cls.hd, hdEntry)}</div>
 				</td>
 			</tr>`;
 		}
